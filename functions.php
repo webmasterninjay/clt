@@ -62,7 +62,7 @@ function clt_enqueue_scripts() {
 	wp_enqueue_script( 'clt-responsive-menu', get_stylesheet_directory_uri() . '/lib/js/menu.js', array( 'jquery' ), '1.0.0', true ); 
 }
 
-// Home
+// Home Widgets
 genesis_register_sidebar( array(
 	'id'          => 'home-sliders',
 	'name'        => __( 'Home - Sliders', 'clt' ),
